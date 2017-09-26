@@ -1,0 +1,40 @@
+{
+  "name": "bizServer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "async": "*",
+    "body-parser": "*",
+    "cache-manager": "*",
+    "cookie-parser": "*",
+    "ejs": "*",
+    "express": "4.13.0",
+    "express-ejs-layouts": "^1.1.0",
+    "express-session": "1.11.3",
+    "jade": "*",
+    "lru-cache": "*",
+    "merge-descriptors": "*",
+    "method-override": "*",
+    "request": "*",
+    "socket.io": "*",
+    "lodash": "*",
+    "log4js": "*",
+    "knex": "*",
+    "mosca": "*",
+    "mqtt": "*",
+    "mysql": "*",
+    "serialport": "*",
+    "shortid": "*",
+    "decamelize": "*",
+    "redis": "*",
+    "mime": "*",
+    "aws-sdk": "*",
+    "camelize": "*"
+  },
+  "devDependencies": {
+    "jshint": "~2.8.0"
+  }
+}
